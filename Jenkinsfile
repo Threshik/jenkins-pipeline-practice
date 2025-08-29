@@ -18,7 +18,7 @@ pipeline {
     agent { label 'windows-node' }  // runs on your Windows agent
 
     triggers {
-        pollSCM('* * * * *')  // check GitHub changes every 2 minutes
+        pollSCM('* * * * *')  // check GitHub changes every 1 minutes
     }
 
     stages {
