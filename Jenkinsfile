@@ -25,7 +25,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Build stage running on Windows agent"
-                bat 'ver'  // shows Windows version
+                //bat 'ver'  // shows Windows version
             }
         }
         stage('Test') {
